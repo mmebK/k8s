@@ -54,12 +54,13 @@
 			<plugin>
 				<groupId>com.google.cloud.tools</groupId>
 				<artifactId>jib-maven-plugin</artifactId>
+				<version>3.4.1</version>
 				<configuration>
 					<from>
 						<image>openjdk:11</image>
 					</from>
 					<to>
-						<image>registry.hub.docker.com/dailycodebuffer/configserver</image>
+						<image>registry.hub.docker.com/mmebk/configserver</image>
 						<tags>${project.version}</tags>
 					</to>
 				</configuration>
